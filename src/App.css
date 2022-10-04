@@ -1,0 +1,214 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.onboarding-container{
+  text-align: center;
+  padding: 70px
+}
+.btn-div{
+  bottom: 5%;
+  width: 100%;
+  height: auto;
+  left: 0;
+  text-align: center;
+  padding-bottom: 40;
+  position: fixed;
+}
+.btn-primary{
+  background-color: #2C135F;
+  border-radius: 0px;
+  width: 70%;
+  border: 0px;
+  margin: 0px auto;
+  padding:12px;
+}
+.btn-primary:hover{
+  background-color: #fff;
+  border-radius: 0px;
+  width: 70%;
+  border: 2px solid #2C135F;
+  color: #2C135F;
+  margin: 0px auto;
+  padding:12px;
+}
+.btn-outline-primary{
+  border: 2px solid #2C135F;
+  color: #2C135F;
+  border-radius: 0px;
+  width: 70%;
+  padding:12px;
+}
+.btn-outline-primary:hover{
+  background-color: #2C135F;
+  border: 0px solid #2C135F;
+  color: #fff;
+  border-radius: 0px;
+  width: 70%;
+  padding:12px;
+}
+.key-div{
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+}
+.key-div p{
+  border: 2px solid #c4c5c6;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 8pt;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+input:focus {
+  outline: none !important;
+}
+textarea:focus {
+  outline: none !important;
+}
+.App-link {
+  color: #61dafb;
+}
+.slideout{
+  animation-name: slideUp;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+  .card {
+    display: inline-block;
+    margin: 10px
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+@keyframes slideUp {
+  from {
+    margin-top: 500px;
+  }
+  to {
+    margin-top: 200px;
+  }
+  
+}
+
+@media screen and (min-width: 768px){
+  .App{
+    background-color: #fff !important;
+  }
+  body{
+    background-color: #fff !important;
+    padding-top: 80px !important;
+  }
+  .balDiv{
+    background-color: #2C135F;
+    width: 500px !important;
+    margin-right: 120px !important;
+    float: left;
+    margin-left: 180px !important;
+  }
+  .portDiv{
+    width: 200px !important
+  }
+  .welcomeTxt{
+    color: #2C135F !important;
+
+  }
+  .welcomeIcon{
+    color: #2C135F !important;
+  }
+  .portfolioDiv{
+    width: 500px !important;
+   
+    float: left;
+    display: block !important;
+  }
+  .navPanel{
+    background-color: #fff !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 70px !important;
+    box-shadow: 1px 1px 11px 1px #c4c5c6;
+  }
+  .MuiBottomNavigation-root{
+    background-color: #fff !important;
+
+  }
+  .desktop-header{
+    background-color: #fff !important;
+    margin: 0px auto !important;
+    width: 700px !important;
+  }
+  .desktop-head-text{
+    color: #000 !important;
+    font-size: 15pt !important;
+  }
+  .header-div{
+    width: 350px !important;
+  }
+  .desktop-btn{
+    border: 2px solid #5F49DB !important;
+    color: #5F49DB !important;
+  }
+  .destop-wallet-div{
+    width: 700px !important;
+    margin: 30px auto !important;
+  }
+  .desktop-scroll{
+    width: 750px !important;
+  }
+  .desktop-fixed{
+    width: 50% !important;
+    left: 25% !important;
+    padding: 0px auto !important;
+    margin: 0px auto !important;
+  }
+  .desktop-fixed .btn{
+    margin: 5px auto !important;
+  }
+  .innerWidth{
+    width: 500px !important;
+    padding: 0px !important;
+  }
+  .innerWidth p{
+    font-size: 10pt !important;
+  }
+}
